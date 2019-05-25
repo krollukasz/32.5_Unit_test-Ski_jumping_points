@@ -1,0 +1,16 @@
+{
+  "name": "32.5_unit_test-ski_jumping_points",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha calculateTotalPoints.test.js",
+    "test-distance": "mocha calculateDistancePoints.test.js",
+    "test-style": "mocha calculateStylePoints.test.js"
+  },
+  "author": "Łukasz Król",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
