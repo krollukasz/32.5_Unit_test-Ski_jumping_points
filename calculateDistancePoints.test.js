@@ -31,7 +31,7 @@ describe('Distance Points', () => {
 
   });
 
-  describe('Hill big'.rainbow, () => {
+  describe('Hill big', () => {
 
     it('should return a number when jump is equals than K point.', () => {
       const actual = distancePoints(120, 'big', 120);
